@@ -61,7 +61,7 @@ filetype plugin indent on    " required
 
 " Persistent undo
 if has('persistent_undo')
-    set undodir=~/.vim  " Diretório de gravação do undo
+    set undodir=~/.vim/undo  " Diretório de gravação do undo
     set undofile        " desfazer persistente
     set undolevels=1000         " número de alterações para desfazer
     set undoreload=10000        " número de linhas do undo no reload de um buffer
